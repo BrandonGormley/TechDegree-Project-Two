@@ -5,7 +5,7 @@ body {
 /* =================== HEADER =================== */
 
 header {
-    background-color: #f5f5f5;
+    background-color: #6388b8;
 }
 
 h1 {
@@ -13,6 +13,8 @@ h1 {
     margin: 0;
     padding: 20px 30px;
     font-size: 1.75rem;
+    color: #fff281;
+    font-family:'Ubuntu', sans-serif;
 }
 ul {
     margin: 0;
@@ -20,7 +22,7 @@ ul {
 }
 nav ul li {
     list-style-type: none;
-    background-color: #ffffff;
+    background-color: #fcf9e0;
     padding: 15px 50px;
     margin: 7px 15px;
     text-align: center;
@@ -43,7 +45,7 @@ nav ul li a {
 .intro-text {
     text-align: center;
     font-size: 1.2rem;
-    color: #7e7e7e;
+    color: #ffffff;
     font-weight: 500;
     padding-bottom: 50px;
     margin:0 15px;
@@ -78,4 +80,27 @@ h3 {
     width: 90%;
     margin: 0 auto 40px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* =================== MEDIA QUERIES =================== */
+
+@media (min-width: 768px) {
+
+}
+
+
+
+@media (min-width: 1024px) {
+
+}
+
 
