@@ -39,7 +39,6 @@ nav ul li a {
     margin: 50px auto 30px;
     display: block;
     width: 75%;
-
 }
 
 .intro-text {
@@ -95,6 +94,7 @@ footer {
     color: #ffffff;
     font-size: 1rem;
     padding-bottom: 15px;
+    padding-top: 60px;
 }
 
 .contact-text {
@@ -141,8 +141,11 @@ footer {
 }
 
 .footer-nav .top {
-    float: right;
     padding-right: 20px;
+}
+
+.footer-nav .right {
+    float: right;
 }
 
 .footer-nav .student {
@@ -155,13 +158,11 @@ footer {
     display: inline;
 }
 
-
-
-
-
-
-
-
+.footer-home,
+.footer-contact,
+.footer-portfolio {
+    display: none;
+}
 
 
 
@@ -170,12 +171,150 @@ footer {
 
 @media (min-width: 768px) {
 
+    nav {
+        text-align: center;
+    }
+
+    nav ul li {
+        background: none;
+        display: inline-block;
+        padding: 0 15px;
+        margin: 0;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .container {
+        padding-bottom: 30px;
+    }
+
+    .profile-picture {
+        float: right;
+        width: 40%;
+        padding-right: 20px;
+    }
+
+    .intro-text {
+        float: left;
+        width: 50%;
+        padding: 0;
+        margin: 50px 0;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .marketing {
+        float: left;
+        width: 50%;
+    }
+
+    .search {
+        float: right;
+        width: 50%;
+    }
+
+    .travel {
+        float: right;
+        width: 50%;
+    }
+
+    .favorite-spots {
+        float: left;
+        width: 50%;
+    }
+
+    .photo-gallery {
+        float: left;
+        width: 50%;
+    }
+
+    .calculator-sec {
+        float: right;
+        width: 50%;
+    }
+
+    .contact-text {
+        width: 60%;
+    }
+
+    .footer-top {
+        display: none;
+    }
+    .footer-home,
+    .footer-portfolio,
+    .footer-contact {
+        display: inline-block;
+        padding-right: 20px;
+    }
+
+    .footer-nav {
+        padding-bottom: 40px;
+    }
 }
 
 
 
 @media (min-width: 1024px) {
 
+
+    .intro-student {
+        float: left;
+        padding-left: 40px;
+        padding-top: 60px;
+    }
+
+    .intro-text {
+        padding-left: 40px;
+        margin-top: 15px;
+    }
+
+    .main-nav {
+        float: right;
+        padding-top: 60px;
+        padding-right: 25px;
+    }
+
+    .profile-picture {
+        padding-right: 40px;
+    }
+
+    .marketing {
+        float: left;
+        width: 33%;
+    }
+
+    .search {
+        float: left;
+        width: 33%;
+    }
+
+    .travel {
+        float: right;
+        width: 33%;
+    }
+
+    .favorite-spots {
+        float: left;
+        width: 33%;
+    }
+
+    .photo-gallery {
+        float: left;
+        width: 33%;
+    }
+
+    .calculator-sec {
+        float: right;
+        width: 33%;
+    }
 }
 
 
