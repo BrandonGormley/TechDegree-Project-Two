@@ -29,6 +29,7 @@ nav ul li {
 }
 
 nav ul li a {
+    display: block;
     text-decoration: none;
     color: #2e2e2e;
     font-weight: 800;
@@ -160,7 +161,8 @@ footer {
 
 .footer-home,
 .footer-contact,
-.footer-portfolio {
+.footer-portfolio,
+.footer-hobbies {
     display: none;
 }
 
@@ -250,7 +252,8 @@ footer {
     }
     .footer-home,
     .footer-portfolio,
-    .footer-contact {
+    .footer-contact,
+    .footer-hobbies {
         display: inline-block;
         padding-right: 20px;
     }
@@ -264,6 +267,9 @@ footer {
 
 @media (min-width: 1024px) {
 
+    .container {
+        display: inline-block;
+    }
 
     .intro-student {
         float: left;
@@ -273,7 +279,7 @@ footer {
 
     .intro-text {
         padding-left: 40px;
-        margin-top: 15px;
+        margin-top: 50px;
     }
 
     .main-nav {
