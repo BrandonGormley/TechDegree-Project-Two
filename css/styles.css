@@ -79,6 +79,7 @@ h3 {
     color: #5e5e5e;
     width: 90%;
     margin: 0 auto 40px;
+    min-height: 75px;
 }
 
 .hobbies {
